@@ -147,9 +147,8 @@ def start(bot: Bot, update: Update, args: List[str]):
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
                     [[InlineKeyboardButton(text="🎉 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ", url="t.me/{}?startgroup=true".format(bot.username)),  InlineKeyboardButton(text="🤖ꜰᴏʟʟᴏᴡ ᴍᴇ", url="https://www.instagram.com/super__lad?r=nametag")],
                      [InlineKeyboardButton(text="👥 ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ", url="https://t.me/everythingpeople"), InlineKeyboardButton(text="🔔 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ", url="https://t.me/cobra_kai_for_life")],
-                     [InlineKeyboardButton(text="ᴅᴇᴘʟᴏʏ", url="https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2Flintobinoy007%2Ftgbot&template=https%3A%2F%2Fgithub.com%2Fjithumon%2Ftgbot"), InlineKeyboardButton(text="🛠 ʜᴇʟᴘ", url="https://t.me/{}?start=help".format(bot.username)) ]]))
-                                                                                [InlineKeyboardButton(text="ᴠɪᴅᴇᴏ ʙᴏᴛ", url="@Kunjumonvideo_bot")
-    else:
+                     [InlineKeyboardButton(text="ᴅᴇᴘʟᴏʏ", url="nothin"), InlineKeyboardButton(text="🛠 ʜᴇʟᴘ", url="https://t.me/{}?start=help".format(bot.username)) ]]))
+                                                                             
         update.effective_message.reply_text("ചത്തിട്ടില്ലാ...")
 
 
