@@ -19,28 +19,27 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
 
-🅷🅾🅻🅰 {}, 🅼🆈 🅽🅰🅼🅴 🅸🆂 {}! 🅸 🅰🅼 🅼🅰🅸🅽🆃🅰🅸🅽🅴🅳 🅱🆈 [ഇദ്ദേഹം](tg://user?id={}) 🅰🅽🅳 🅸 🅰🅼 🆂🆄🅿🅴🆁 🅰🅳🅼🅸🅽 🅱🅾🆃.
+ʜᴏʟᴀ {}, ᴍʏ ɴᴀᴍᴇ ɪꜱ {}! ɪ ᴀᴍ ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ [ᴛʜᴇ ʟᴇɢᴇɴᴅ](tg://user?id={}) ᴀɴᴅ ɪ ᴀᴍ ᴀ ꜱᴜᴘᴇʀ ᴀᴅᴍɪɴ ʙᴏᴛ.
 
-🅸 🅰🅼 🅼🅰🅳🅴🅳 🅸🅽 python3 🅸🅽 python-telegram-bot 🆄🆂🅸🅽🅶 🆃🅷🅸🆂 🅻🅸🅱🆁🅰🆁🆈. 🅸 🅰🅼 🆃🅾🆃🅰🅻🅻🆈 🅾🅿🅴🅽 🆂🅾🆄🆁🅲🅴. 🅼🆈 🅲🅾🅳🅴 🅸🅽 🆃🅷🅸🆂 🆆🅴🅱 [ഇവിടെ](https://github.com/lintobinoy007/tgbot) കാണുവാൻ സാധിക്കും.
+ɪ ᴀᴍ ᴍᴀᴅᴇᴅ ɪɴ python3 ᴜꜱɪɴɢ ᴛʜɪꜱ ʟɪʙʀᴀʀʏ 𝖕𝖞𝖙𝖍𝖔𝖓-𝖙𝖊𝖑𝖊𝖌𝖗𝖆𝖒-𝖇𝖔𝖙 . ɪ ᴀᴍ ᴛᴏᴛᴀʟʟʏ ᴏᴘᴇɴ ꜱᴏᴜʀᴄᴇ. ᴍʏ ᴄᴏᴅᴇ ɪꜱ ɪɴ ᴛʜɪꜱ ᴡᴇʙ [ʟɪɴᴋ](https://github.com/lintobinoy007/tgbot) ʏᴏᴜ ᴄᴀɴ ꜱᴇᴇ ʜᴇʀᴇ.
+ɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴋɴᴏᴡ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅ'ꜱ ᴄʟɪᴄᴋ ᴏʀ ᴛʏᴘᴇ /help.
 
-🅸🅵 🆈🅾🆄 🆆🅰🅽🆃 🆃🅾 🅺🅽🅾🆆 🅰🆅🅰🅸🅻🅰🅱🅻🅴 🅲🅾🅼🅼🅰🅽🅳🆂 🅿🅻🅴🅰🆂🅴🆂 🅲🅻🅸🅲🅺 🅾🆁 🆃🆈🅿🅴 /help.
-
-ɪꜰ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ Qᴜᴇʀɪᴇꜱ ᴀʙᴏᴜᴛ ᴛʜᴇ ʙᴏᴛ ᴘʟᴇᴀꜱᴇ ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ (https://t.me/a_boy_is_no_one00)
+ɪꜰ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ Qᴜᴇʀɪᴇꜱ ᴀʙᴏᴜᴛ ᴛʜᴇ ʙᴏᴛ ᴘʟᴇᴀꜱᴇ ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ (@a_boy_is_no_one00)
 ᴏʀ ᴊᴏɪɴ ᴏᴜʀ ɢʀᴏᴜᴘ (https://t.me/everythingpeople)
 """
 
 HELP_STRINGS = """
-Hey there! My name is *{}*.
-I'm a modular group management bot with a few fun extras! Have a look at the following for an idea of some of \
-the things I can help you with.
+ʜᴇʏ ᴛʜᴇʀᴇ! ᴍʏ ɴᴀᴍᴇ ɪꜱ *{}*.
+ɪ'ᴍ ᴀ ᴍᴏᴅᴜʟᴀʀ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴡɪᴛʜ ᴀ ꜰᴇᴡ ꜰᴜɴ ᴇxᴛʀᴀꜱ! ʜᴀᴠᴇ ᴀ ʟᴏᴏᴋ ᴀᴛ ᴛʜᴇ ꜰᴏʟʟᴏᴡɪɴɢ ꜰᴏʀ ᴀɴ ɪᴅᴇᴀ ᴏꜰ ꜱᴏᴍᴇ ᴏꜰ \
+ᴛʜᴇ ᴛʜɪɴɢꜱ ɪ ᴄᴀɴ ʜᴇʟᴘ ʏᴏᴜ ᴡɪᴛʜ.
 *Main* commands available:
- - /start: start the bot
- - /help: PM's you this message.
- - /help <module name>: PM's you info about that module.
- - /donate: information about how to donate!
+ - /start: ꜱᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ
+ - /help: ᴘᴍ'ꜱ ʏᴏᴜ ᴛʜɪꜱ ᴍᴇꜱꜱᴀɢᴇ.
+ - /help <module name>: ᴘᴍ'ꜱ ʏᴏᴜ ɪɴꜰᴏ ᴀʙᴏᴜᴛ ᴛʜᴀᴛ ᴍᴏᴅᴜʟᴇ.
+ - /donate: ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ʜᴏᴡ ᴛᴏ ᴅᴏɴᴀᴛᴇ!
  - /settings:
-   - in PM: will send you your settings for all supported modules.
-   - in a group: will redirect you to pm, with all that chat's settings.
+   - ɪɴ ᴘᴍ: ᴡɪʟʟ ꜱᴇɴᴅ ʏᴏᴜ ʏᴏᴜʀ ꜱᴇᴛᴛɪɴɢꜱ ꜰᴏʀ ᴀʟʟ ꜱᴜᴘᴘᴏʀᴛᴇᴅ ᴍᴏᴅᴜʟᴇꜱ.
+   - ɪɴ ᴀ ɢʀᴏᴜᴘ: ᴡɪʟʟ ʀᴇᴅɪʀᴇᴄᴛ ʏᴏᴜ ᴛᴏ ᴘᴍ, ᴡɪᴛʜ ᴀʟʟ ᴛʜᴀᴛ ᴄʜᴀᴛ'ꜱ ꜱᴇᴛᴛɪɴɢꜱ.
 {}
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
@@ -146,10 +145,10 @@ def start(bot: Bot, update: Update, args: List[str]):
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
 
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text="🎉 Add me to your group", url="t.me/{}?startgroup=true".format(bot.username)),  InlineKeyboardButton(text="🤖 Make Own Admin Bot", url="https://youtu.be/W6CLKrehy6w")],
-                     [InlineKeyboardButton(text="👥 Support Group", url="https://t.me/KeralaBots"), InlineKeyboardButton(text="🔔 Update Channel", url="https://t.me/KochuUpdates")],
-                     [InlineKeyboardButton(text="🎬 Youtube Channel", url="https://www.youtube.com/stealthtechnogaming?sub_confirmation=1"), InlineKeyboardButton(text="🛠 Help", url="https://t.me/{}?start=help".format(bot.username)) ]]))
-
+                    [[InlineKeyboardButton(text="🎉 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ", url="t.me/{}?startgroup=true".format(bot.username)),  InlineKeyboardButton(text="🤖ꜰᴏʟʟᴏᴡ ᴍᴇ", url="https://www.instagram.com/super__lad?r=nametag")],
+                     [InlineKeyboardButton(text="👥 ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ", url="https://t.me/everythingpeople"), InlineKeyboardButton(text="🔔 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ", url="https://t.me/cobra_kai_for_life")],
+                     [InlineKeyboardButton(text="ᴅᴇᴘʟᴏʏ", url="https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2Flintobinoy007%2Ftgbot&template=https%3A%2F%2Fgithub.com%2Fjithumon%2Ftgbot"), InlineKeyboardButton(text="🛠 ʜᴇʟᴘ", url="https://t.me/{}?start=help".format(bot.username)) ]]))
+                                                                                [InlineKeyboardButton(text="ᴠɪᴅᴇᴏ ʙᴏᴛ", url="@Kunjumonvideo_bot")
     else:
         update.effective_message.reply_text("ചത്തിട്ടില്ലാ...")
 
