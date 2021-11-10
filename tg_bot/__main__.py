@@ -145,11 +145,11 @@ def start(bot: Bot, update: Update, args: List[str]):
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
 
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text="🥰 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🥰", url="t.me/{}?startgroup=true".format(bot.username)),  InlineKeyboardButton(text="😎 ꜰᴏʟʟᴏᴡ ᴍᴇ 😎", url="https://www.instagram.com/super__lad?r=nametag")],
-                     [InlineKeyboardButton(text="🕺 ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ 🕺", url="https://t.me/hangoutgroup1"), InlineKeyboardButton(text="👨‍🔧 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 👨‍🔧", url="https://t.me/cobra_kai_for_life")],
-                     [InlineKeyboardButton(text="🦾 Tech Chat 🦾", url="https://t.me/InFoTelGroup"), InlineKeyboardButton(text="🛠 ʜᴇʟᴘ", url="https://t.me/{}?start=help".format(bot.username)) ]]))
+                    [[InlineKeyboardButton(text="🥰ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ🥰", url="t.me/{}?startgroup=true".format(bot.username)),  InlineKeyboardButton(text="😎ꜰᴏʟʟᴏᴡ ᴍᴇ😎", url="https://www.instagram.com/super__lad?r=nametag")],
+                     [InlineKeyboardButton(text="🕺ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ🕺", url="https://t.me/joinchat/dBa--UlWFyBjOGJl"), InlineKeyboardButton(text="👨‍🔧ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ👨‍🔧", url="https://t.me/cobra_kai_for_life")],
+                     [InlineKeyboardButton(text="🦾Tech Chat🦾", url="https://t.me/InFoTelGroup"), InlineKeyboardButton(text="🛠 ʜᴇʟᴘ", url="https://t.me/{}?start=help".format(bot.username)) ]]))
                                                                              
-        update.effective_message.reply_text("ചത്തിട്ടില്ലാ...")
+        update.effective_message.reply_text("ചത്തിട്ടില്ലാ...am not dead yet")
 
 
 # for test purposes
